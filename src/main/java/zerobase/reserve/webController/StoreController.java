@@ -1,8 +1,5 @@
 package zerobase.reserve.webController;
 
-//매장리스트 관련
-
-import jakarta.persistence.EntityManager;
 import lombok.AllArgsConstructor;
 import org.springframework.data.domain.Page;
 import org.springframework.http.ResponseEntity;
