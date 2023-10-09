@@ -4,7 +4,7 @@ spring:
 
   h2:
     console:
-      enabled: true
+      enabled: false
       path: /h2-console
 
   jpa:
@@ -18,4 +18,7 @@ spring:
     url: jdbc:h2:mem:reserve;DB_CLOSE_DELAY=-1
     username: sa
     password:
+
+  jwt:
+    secret: YmlpaXNnb2luZ2VuY29kZXRvbWFrZXNvbWVzZWNyZXQ=
 
